@@ -7,15 +7,15 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch tap-blackbaud",
+            "name": "Launch tap-blackbaud-school",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceRoot:tap-blackbaud}/bin/tap-blackbaud.js",
+            "program": "${workspaceRoot:tap-blackbaud-school}/bin/tap-blackbaud-school.js",
             "args": [
-                "--config", "${workspaceRoot:tap-blackbaud}/.scratch/config.json",
-                "--state", "${workspaceRoot:tap-blackbaud}/.scratch/state.json",
-                "--catalog", "${workspaceRoot:tap-blackbaud}/.scratch/catalog.json"
+                "--config", "${workspaceRoot:tap-blackbaud-school}/.scratch/config.json",
+                "--state", "${workspaceRoot:tap-blackbaud-school}/.scratch/state.json",
+                "--catalog", "${workspaceRoot:tap-blackbaud-school}/.scratch/catalog.json"
             ]
         }
     ]

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const fs = require('fs')
-const tapBlackbaud = require('../lib/tapBlackbaud')
+const tapBlackbaudSchool = require('../lib/tapBlackbaudSchool')
 
 const {
   argv: {
@@ -30,4 +30,4 @@ const {
   //     : null
   // })
 
-tapBlackbaud({ subscriptionKey, token })
+tapBlackbaudSchool({ subscriptionKey, token })

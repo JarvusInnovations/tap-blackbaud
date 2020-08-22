@@ -1,7 +1,7 @@
 {
-    "name": "tap-blackbaud",
+    "name": "tap-blackbaud-school",
     "bin": {
-        "tap-blackbaud": "bin/tap-blackbaud.js"
+        "tap-blackbaud-school": "bin/tap-blackbaud-school.js"
     },
     "dependencies": {
         "got": "^11.5.2",
