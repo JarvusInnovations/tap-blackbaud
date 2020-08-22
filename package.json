@@ -1,0 +1,13 @@
+{
+    "name": "tap-blackbaud",
+    "bin": {
+        "tap-blackbaud": "bin/tap-blackbaud.js"
+    },
+    "dependencies": {
+        "got": "^11.5.2",
+        "yargs": "^15.4.1"
+    },
+    "devDependencies": {
+        "standard": "*"
+    }
+}
