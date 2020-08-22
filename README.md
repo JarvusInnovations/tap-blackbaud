@@ -14,7 +14,7 @@ tap-blackbaud-school --config ./config.json
 
 ```json
 {
-    "subscriptionKey": "abcdef1234567890...",
+    "subscription_key": "abcdef1234567890...",
     "token": "ey...",
     "school_years": ["2020-2021"],
     "sections": { "level_num": 1234 }
