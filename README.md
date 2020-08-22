@@ -20,3 +20,19 @@ tap-blackbaud-school --config ./config.json
     "sections": { "level_num": 1234 }
 }
 ```
+
+### Example usage
+
+```bash
+mkdir -p .scratch
+
+# prepare target-csv
+python3 -m venv .scratch/venv
+source .scratch/venv/bin/activate
+pip install target-csv
+deactivate
+
+# dump data
+node bin/tap-blackbaud-school.js --config .scratch/config.json \
+    | (cd .scratch/ && ./venv/bin/target-csv)
+```
