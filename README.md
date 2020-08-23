@@ -36,3 +36,10 @@ deactivate
 node bin/tap-blackbaud-school.js --config .scratch/config.json \
     | (cd .scratch/ && ./venv/bin/target-csv)
 ```
+
+## References
+
+- [Blackbaud SKY API: Getting Started](https://developer.blackbaud.com/skyapi/docs/getting-started)
+- [Blackbaud SKY API: Authorization](https://developer.blackbaud.com/skyapi/docs/authorization)
+- [Blackbaud SKY API: Basics](https://developer.blackbaud.com/skyapi/docs/basics)
+- [Blackbaud SKY API: School API Resources](https://developer.blackbaud.com/skyapi/apis/school)
