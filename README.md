@@ -43,3 +43,4 @@ node bin/tap-blackbaud-school.js --config .scratch/config.json \
 - [Blackbaud SKY API: Authorization](https://developer.blackbaud.com/skyapi/docs/authorization)
 - [Blackbaud SKY API: Basics](https://developer.blackbaud.com/skyapi/docs/basics)
 - [Blackbaud SKY API: School API Resources](https://developer.blackbaud.com/skyapi/apis/school)
+- [Blackbaud SKY API: School Entity Reference](https://developer.blackbaud.com/skyapi/apis/school/entities)
