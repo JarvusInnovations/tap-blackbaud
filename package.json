@@ -1,6 +1,6 @@
 {
     "name": "tap-blackbaud-school",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Jarvus Innovations <hello@jarv.us>",
     "description": "A Singer tap for Blackbaud's School API",
     "repository": {
