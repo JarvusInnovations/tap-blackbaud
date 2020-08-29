@@ -1,0 +1,6 @@
+[gitsheet]
+root = "roles"
+path = "${{ id }}"
+
+[gitsheet.fields.id]
+type = "integer"

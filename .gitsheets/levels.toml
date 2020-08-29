@@ -1,0 +1,6 @@
+[gitsheet]
+root = "levels"
+path = "${{ id }}"
+
+[gitsheet.fields.id]
+type = "integer"

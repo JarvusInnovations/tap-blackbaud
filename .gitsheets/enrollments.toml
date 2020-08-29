@@ -1,0 +1,9 @@
+[gitsheet]
+root = "enrollments"
+path = "${{ id > 0 ? Math.floor(id/1000)*1000 || '0000' : '0000' }}/${{ id }}/${{ user_id }}"
+
+[gitsheet.fields.id]
+type = "integer"
+
+[gitsheet.fields.user_id]
+type = "integer"
