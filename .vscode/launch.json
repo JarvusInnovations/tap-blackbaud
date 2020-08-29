@@ -19,7 +19,7 @@
                 "--state=${workspaceFolder:friends-select}/.scratch/blackbaud/state.json",
                 "--catalog=${workspaceFolder:friends-select}/.scratch/blackbaud/catalog.json",
                 "|",
-                "git", "sheet", "singer-target",
+                "git", "sheetx", "singer-target",
                 "--delete-missing",
                 "--commit-to=gitsheets/blackbaud"
             ]
