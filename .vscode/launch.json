@@ -11,11 +11,17 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceRoot:tap-blackbaud-school}/bin/tap-blackbaud-school.js",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder:friends-select}",
+            "program": "${workspaceFolder}/bin/tap-blackbaud-school.js",
             "args": [
-                "--config", "${workspaceRoot:tap-blackbaud-school}/.scratch/config.json",
-                "--state", "${workspaceRoot:tap-blackbaud-school}/.scratch/state.json",
-                "--catalog", "${workspaceRoot:tap-blackbaud-school}/.scratch/catalog.json"
+                "--config=${workspaceFolder:friends-select}/.scratch/blackbaud/config.json",
+                "--state=${workspaceFolder:friends-select}/.scratch/blackbaud/state.json",
+                "--catalog=${workspaceFolder:friends-select}/.scratch/blackbaud/catalog.json",
+                "|",
+                "git", "sheet", "singer-target",
+                "--delete-missing",
+                "--commit-to=gitsheets/blackbaud"
             ]
         }
     ]
