@@ -18,10 +18,8 @@
                 "--config=${workspaceFolder:friends-select}/.scratch/blackbaud/config.json",
                 "--state=${workspaceFolder:friends-select}/.scratch/blackbaud/state.json",
                 "--catalog=${workspaceFolder:friends-select}/.scratch/blackbaud/catalog.json",
-                "|",
-                "git", "sheetx", "singer-target",
-                "--delete-missing",
-                "--commit-to=gitsheets/blackbaud"
+                ">", "${workspaceFolder:friends-select}/.scratch/blackbaud/tap.jsonl"
+                // "|", "git", "sheetx", "singer-target", "--delete-missing", "--commit-to=gitsheets/blackbaud", "--source-label=friends-select@api.sky.blackbaud.com"
             ]
         }
     ]
